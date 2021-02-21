@@ -37,8 +37,6 @@ const esClient = elasticsearch.Client({
 
 ## Quick Start
 
-To create a Topic that is replicated on the three brokers run:
-
 ```bash
 # Install dependencies for server
 npm install
