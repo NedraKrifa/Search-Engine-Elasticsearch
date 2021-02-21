@@ -1,0 +1,18 @@
+{
+  "name": "search-engine",
+  "version": "1.0.0",
+  "description": "Build a Real-time Search Engine with Elasticsearch and Node",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "server": "nodemon index.js"
+  },
+  "author": "Nedra Krifa",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "elasticsearch": "^16.7.2",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7"
+  }
+}
